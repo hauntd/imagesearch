@@ -1,0 +1,80 @@
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.wrap {
+  padding-top: 70px;
+}
+.site-index {
+  max-width: 400px;
+  margin: 120px auto;
+}
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+.grid-item-link {
+  max-width: 300px;
+  max-height: 300px;
+  display: block;
+  margin: 5px;
+  float: left;
+}
+.grid-item {
+  max-width: 300px;
+  max-height: 300px;
+  display: block;
+  vertical-align: top;
+}
+.catalog-item-link {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  position: relative;
+}
+.catalog-item-link.main {
+  border: 3px solid #3ca2e0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.catalog-item-link.similar {
+  border: 3px solid #888;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.catalog-item-link .catalog-item {
+  max-width: 150px;
+  max-height: 150px;
+  position: relative;
+}
+.catalog-item-link .distance {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background: #323966;
+  color: #fff;
+  font-size: 10pt;
+  padding: 2px 6px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
